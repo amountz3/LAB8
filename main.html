@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
   </head>
-  <body>
 
-<div style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red; text-align:center; font-size:20px; display:inline-block; " >
+<body>
+<div class="seat1" style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red; text-align:center; font-size:20px; display:inline-block; " >
    <p>ONE</p>
-
 </div>
 
- <div style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red;text-align:center;  font-size:20px; display:inline-block; " >
+ <div class="seat2" style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red;text-align:center;  font-size:20px; display:inline-block; " >
    <p>TWO</p>
-
 </div>
 
-<div style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red; text-align:center; font-size:20px; display:inline-block; " >
+<div class="seat3" style = "height:100px; width:100px; border-style:solid; border-width:2px; color:blue; border-color:red; text-align:center; font-size:20px; display:inline-block; " >
    <p>THREE</p>
-
 </div>
 
 
 
-    <script type="text/javascript" src='main.js'>
-    </script>
-<div class="">
-  im making changes for the lulz.
-</div>
-<div class="form" method="post">
-  <form form action="/main.html" style="width: 300px">
+<form style="width: 300px">
     <fieldset>
     <legend>Pick Your Seat</legend>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname"><br>
-  Seat Number:<br>
-  <input type="text" name="seatnumber"><br>
-  <input type="submit" value="Reserve Your Seat">
-</fieldset>
-</form>
-</div>
+    First name:<br>
+    <input id="FN" type="text" name="firstName"><br>
+    Last name:<br>
+    <input id="LN" type="text" name="lastName"><br>
+    Seat Number:<br>
+    <input id="SN" type="text" name="seatNumber"><br>
+    <input type="submit" value="Reserve Your Seat">
+    </fieldset>
+  </form>
+
+
+
 <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src='main.js'>
+    </script>
 </body>
 
 </html>
