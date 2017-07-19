@@ -6,5 +6,4 @@ event.preventDefault();
     var sn =  $('#SN').val();
 list.push({fn: fn, ln: ln, sn : sn});
 $("#seat" + sn).addClass("reserved");
-console.log(sn)
 });
