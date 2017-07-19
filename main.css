@@ -1,4 +1,4 @@
-.reserved: {
-	border-color: grey
-	color: grey;
+.reserved {
+	background-color: red;
+	color: red;
 }

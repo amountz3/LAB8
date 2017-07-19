@@ -5,5 +5,6 @@ event.preventDefault();
     var ln =  $('#LN').val();
     var sn =  $('#SN').val();
 list.push({fn: fn, ln: ln, sn : sn});
-console.log(list);
+$("#seat" + sn).addClass("reserved");
+console.log(sn)
 });
